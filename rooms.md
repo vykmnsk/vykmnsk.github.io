@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Rooms
-icon: fa-broom
+icon: fa-bed
 order: 2
 ---
 
