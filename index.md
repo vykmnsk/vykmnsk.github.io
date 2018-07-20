@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Villa Orange Dacha
+title: Villa 
 icon: fa-home
 order: 1
 ---
