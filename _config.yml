@@ -31,7 +31,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Orange Dacha
-subtitle: BALI
+subtitle: Changgu - BALI
 description: >- # this means to ignore newlines until "baseurl:"
 author: Rien
 email: orangedacha@tuta.io
@@ -55,6 +55,6 @@ twitter_url:
 google_analytics:
 
 # The following settings are NECESSARY for the Prologue theme to run:
-# theme: jekyll-theme-prologue
-remote_theme: chrisbobbe/jekyll-theme-prologue
+theme: jekyll-theme-prologue
+# remote_theme: chrisbobbe/jekyll-theme-prologue
 collections: [sections]
