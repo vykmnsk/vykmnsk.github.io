@@ -6,5 +6,23 @@
     <li>Contact Us:&nbsp;&nbsp; <strong>{{- site.email -}} </strong> </li>
     <li>Мы говорим по-русски!</li>
   </ul>
-
 </div>
+
+<script type="text/javascript" src="assets/js/jquery-3.3.1.slim.min.js"></script>
+<script>
+  $(document).ready(function () {
+
+    $('[lang="ru"]').hide();
+
+    $('#switch-lang-ru').click(function () {
+      $('[lang="en"]').hide();
+      $('[lang="ru"]').show();
+    });
+
+    $('#switch-lang-en').click(function () {
+      $('[lang="ru"]').hide();
+      $('[lang="en"]').show();
+    });
+
+  });
+</script>
