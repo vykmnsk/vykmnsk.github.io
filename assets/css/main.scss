@@ -5,12 +5,19 @@
 @import "./cal.css";
 
 
+body {
+  color: #332322;
+  font-family: 'Trebuchet MS', 'Lucida Grande', sans-serif;
+}
+
 #nav ul li a.active span:before {
   color: #FF8500;
 }
 
 #logo p {
-    font-size: 0.8em;
+  font-size: 0.8em;
 }
 
-
+#footer {
+  background-color: #e5dcb9;
+}
