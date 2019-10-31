@@ -16,12 +16,15 @@
 
     $('#switch-lang-ru').click(function () {
       $('[lang="en"]').hide();
+      $('#switch-lang-en').removeClass("underlined")
       $('[lang="ru"]').show();
+      $('#switch-lang-ru').addClass("underlined")
     });
-
     $('#switch-lang-en').click(function () {
       $('[lang="ru"]').hide();
+      $('#switch-lang-ru').removeClass("underlined")
       $('[lang="en"]').show();
+      $('#switch-lang-en').addClass("underlined")
     });
 
   });
