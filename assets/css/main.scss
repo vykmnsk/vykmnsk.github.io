@@ -6,7 +6,7 @@
 
 body {
   color: #332322;
-  font-family: 'Lucida Grande', sans-serif;
+  font-family: 'Trebuchet MS', 'Trebuchet', 'Josefin Sans', Roboto, sans-serif;
   font-size: 15pt;
 }
 
@@ -14,10 +14,21 @@ body {
   color: #FF8500;
 }
 
-#main article.shade-two {
 
+#main header h2{
+    text-align: center;
+}
+
+#main section.shade-two {
     background-color: #fffaf0;
+}
 
+#main article.shade-two {
+    background-color: #fffaf0;
+}
+
+#main > section {
+    text-align: left;
 }
 
 #logo p {
