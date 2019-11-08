@@ -17,6 +17,11 @@ body {
 
 #main header h2{
     text-align: center;
+    line-height: 0em;
+}
+
+#main > section {
+    text-align: left;
 }
 
 #main section.shade-two {
@@ -27,9 +32,13 @@ body {
     background-color: #fffaf0;
 }
 
-#main > section {
-    text-align: left;
+#main section.shade-four {
+    background-color: #fffaf0;
 }
+
+
+
+
 
 #logo p {
   font-size: 0.8em;
