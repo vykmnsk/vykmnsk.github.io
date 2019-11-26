@@ -10,33 +10,35 @@ body {
   font-size: 15pt;
 }
 
+a:hover {
+  color: #FF8500;
+}
+
 #nav ul li a.active span:before {
   color: #FF8500;
 }
 
 
 #main header h2{
-    text-align: center;
-    line-height: 0em;
+  text-align: center;
+  line-height: 0em;
 }
 
 #main > section {
-    text-align: left;
+  text-align: left;
 }
 
 #main section.shade-two {
-    background-color: #fffaf0;
+  background-color: #fffaf0;
 }
 
 #main article.shade-two {
-    background-color: #fffaf0;
+  background-color: #fffaf0;
 }
 
 #main section.shade-four {
-    background-color: #fffaf0;
+  background-color: #fffaf0;
 }
-
-
 
 
 
