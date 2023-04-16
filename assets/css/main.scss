@@ -1,27 +1,31 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@import "jekyll-theme-prologue";
 
+@import "jekyll-theme-prologue";
 
 body {
   color: #332322;
-  font-family: 'Trebuchet MS', 'Trebuchet', 'Josefin Sans', Roboto, sans-serif;
+  font-family: "Trebuchet MS", "Trebuchet", "Josefin Sans", Roboto, sans-serif;
   font-size: 15pt;
 }
 
 a:hover {
-  color: #FF8500;
+  color: #ff8500;
 }
 
 #nav ul li a.active span:before {
-  color: #FF8500;
+  color: #ff8500;
 }
 
-
-#main header h2{
+#main header h2 {
   text-align: center;
   line-height: 0em;
+}
+
+#main h4 {
+  margin-top: 1em;
+  font-weight: bold;
 }
 
 #main > section {
@@ -39,8 +43,6 @@ a:hover {
 #main section.shade-four {
   background-color: #fffaf0;
 }
-
-
 
 #logo p {
   font-size: 0.8em;
